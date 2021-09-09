@@ -1,0 +1,781 @@
+26 20:25:34 mohssen kernel: [ 1912.076416] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076416]  PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076416] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076416] PARENT PID: 0 PROCESS: swapper/0 STATE: 0
+Jun 26 20:25:34 mohssen kernel: [ 1912.076416] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076417] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076417]  PID: 4 PROCESS: kworker/0:0H STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076418] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076418] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076418] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076419] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076419]  PID: 5 PROCESS: kworker/u2:0 STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076420] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076420] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076420] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076421] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076421]  PID: 6 PROCESS: mm_percpu_wq STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076421] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076421] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076422] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076423] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076423]  PID: 7 PROCESS: ksoftirqd/0 STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076423] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076423] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076424] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076424] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076424]  PID: 8 PROCESS: rcu_sched STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076425] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076425] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076425] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076426] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076426]  PID: 9 PROCESS: rcu_bh STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076426] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076426] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076427] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076427] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076427]  PID: 10 PROCESS: migration/0 STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076428] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076428] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076428] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076429] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076429]  PID: 11 PROCESS: watchdog/0 STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076430] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076430] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076430] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076431] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076431]  PID: 12 PROCESS: cpuhp/0 STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076431] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076431] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076432] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076433] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076433]  PID: 13 PROCESS: kdevtmpfs STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076433] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076433] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076433] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076434] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076434]  PID: 14 PROCESS: netns STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076435] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076435] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076435] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076436] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076436]  PID: 15 PROCESS: rcu_tasks_kthre STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076437] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076437] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076437] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076438] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076438]  PID: 16 PROCESS: kauditd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076439] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076439] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076439] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076440] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076440]  PID: 17 PROCESS: khungtaskd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076440] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076440] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076441] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076441] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076441]  PID: 18 PROCESS: oom_reaper STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076442] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076442] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076442] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076443] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076443]  PID: 19 PROCESS: writeback STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076443] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076443] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076444] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076444] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076444]  PID: 20 PROCESS: kcompactd0 STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076445] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076445] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076445] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076446] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076446]  PID: 21 PROCESS: ksmd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076447] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076447] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076447] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076448] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076448]  PID: 22 PROCESS: khugepaged STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076448] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076448] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076449] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076450] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076450]  PID: 23 PROCESS: crypto STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076450] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076450] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076450] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076451] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076451]  PID: 24 PROCESS: kintegrityd STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076452] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076452] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076452] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076453] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076453]  PID: 25 PROCESS: kblockd STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076453] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076453] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076453] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076454] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076454]  PID: 26 PROCESS: ata_sff STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076455] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076455] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076455] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076456] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076456]  PID: 27 PROCESS: md STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076457] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076457] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076457] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076458] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076458]  PID: 28 PROCESS: edac-poller STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076458] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076458] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076459] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076459] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076459]  PID: 29 PROCESS: devfreq_wq STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076460] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076460] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076460] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076461] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076461]  PID: 30 PROCESS: watchdogd STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076461] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076461] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076462] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076463] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076463]  PID: 34 PROCESS: kswapd0 STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076463] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076463] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076463] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076464] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076464]  PID: 35 PROCESS: kworker/u3:0 STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076465] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076465] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076465] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076466] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076466]  PID: 36 PROCESS: ecryptfs-kthrea STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076466] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076466] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076467] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076467] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076467]  PID: 78 PROCESS: kthrotld STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076468] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076468] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076468] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076469] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076469]  PID: 79 PROCESS: acpi_thermal_pm STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076470] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076470] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076470] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076471] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076471]  PID: 80 PROCESS: scsi_eh_0 STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076471] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076471] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076472] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076472] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076472]  PID: 81 PROCESS: scsi_tmf_0 STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076473] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076473] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076473] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076474] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076474]  PID: 82 PROCESS: scsi_eh_1 STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076474] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076474] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076475] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076475] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076475]  PID: 83 PROCESS: scsi_tmf_1 STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076476] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076476] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076476] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076477] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076477]  PID: 89 PROCESS: ipv6_addrconf STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076478] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076478] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076478] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076479] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076479]  PID: 98 PROCESS: kstrp STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076479] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076479] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076480] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076480] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076480]  PID: 115 PROCESS: charger_manager STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076481] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076481] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076481] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076482] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076482]  PID: 176 PROCESS: kworker/0:1H STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076482] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076482] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076483] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076484] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076484]  PID: 177 PROCESS: scsi_eh_2 STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076484] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076484] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076484] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076485] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076485]  PID: 178 PROCESS: scsi_tmf_2 STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076486] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076486] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076486] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076487] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076487]  PID: 179 PROCESS: ttm_swap STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076487] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076487] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076488] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076488] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076488]  PID: 180 PROCESS: irq/18-vmwgfx STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076489] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076489] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076489] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076490] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076490]  PID: 204 PROCESS: jbd2/sda1-8 STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076491] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076491] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076491] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076492] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076492]  PID: 205 PROCESS: ext4-rsv-conver STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076492] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076492] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076493] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076493] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076493]  PID: 237 PROCESS: systemd-journal STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076494] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076494] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076494] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076495] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076495]  PID: 261 PROCESS: systemd-udevd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076495] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076495] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076496] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076496] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076496]  PID: 290 PROCESS: iprt-VBoxWQueue STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076497] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076497] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076497] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076498] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076498]  PID: 482 PROCESS: jbd2/sda6-8 STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076499] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076499] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076499] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076500] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076500]  PID: 483 PROCESS: ext4-rsv-conver STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076500] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076500] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076501] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076501] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076501]  PID: 489 PROCESS: jbd2/sda5-8 STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076502] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076502] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076502] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076503] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076503]  PID: 490 PROCESS: ext4-rsv-conver STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076504] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076504] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076504] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076505] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076505]  PID: 534 PROCESS: systemd-timesyn STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076505] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076505] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076506] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076506] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076506]  PID: 651 PROCESS: rsyslogd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076507] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076507] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076507] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076508] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076508]  PID: 655 PROCESS: accounts-daemon STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076508] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076508] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076509] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076509] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076509]  PID: 659 PROCESS: acpid STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076510] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076510] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076510] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076511] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076511]  PID: 661 PROCESS: dbus-daemon STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076512] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076512] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076512] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076513] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076513]  PID: 689 PROCESS: NetworkManager STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076513] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076513] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076513] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076514] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076514]  PID: 691 PROCESS: avahi-daemon STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076515] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076515] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076515] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076516] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076516]  PID: 694 PROCESS: cupsd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076516] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076516] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076517] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076518] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076518]  PID: 706 PROCESS: cron STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076518] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076518] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076518] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076519] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076519]  PID: 711 PROCESS: systemd-logind STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076520] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076520] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076520] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076521] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076521]  PID: 807 PROCESS: avahi-daemon STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076521] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076521] PARENT PID: 691 PROCESS: avahi-daemon STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076522] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076522] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076522]  PID: 809 PROCESS: cups-browsed STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076523] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076523] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076523] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076524] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076524]  PID: 819 PROCESS: polkitd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076524] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076524] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076525] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076526] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076526]  PID: 824 PROCESS: lightdm STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076526] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076526] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076527] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076527] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076527]  PID: 834 PROCESS: dbus STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076528] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076528] PARENT PID: 694 PROCESS: cupsd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076528] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076529] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076529]  PID: 835 PROCESS: dbus STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076529] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076529] PARENT PID: 694 PROCESS: cupsd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076530] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076531] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076531]  PID: 849 PROCESS: Xorg STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076531] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076531] PARENT PID: 824 PROCESS: lightdm STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076531] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076532] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076532]  PID: 891 PROCESS: dnsmasq STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076533] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076533] PARENT PID: 689 PROCESS: NetworkManager STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076533] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076534] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076534]  PID: 1044 PROCESS: whoopsie STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076534] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076534] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076535] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076535] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076535]  PID: 1048 PROCESS: agetty STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076536] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076536] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076536] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076537] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076537]  PID: 1109 PROCESS: lightdm STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076538] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076538] PARENT PID: 824 PROCESS: lightdm STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076538] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076539] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076539]  PID: 1181 PROCESS: rtkit-daemon STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076539] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076539] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076540] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076541] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076541]  PID: 1191 PROCESS: upowerd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076541] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076541] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076541] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076542] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076542]  PID: 1206 PROCESS: colord STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076543] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076543] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076543] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076544] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076544]  PID: 1228 PROCESS: kworker/u2:1 STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076544] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076544] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076545] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076545] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076545]  PID: 1248 PROCESS: dhclient STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076546] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076546] PARENT PID: 689 PROCESS: NetworkManager STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076546] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076547] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076547]  PID: 1282 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076548] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076548] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076548] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076549] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076549]  PID: 1283 PROCESS: (sd-pam) STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076549] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076549] PARENT PID: 1282 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076550] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076550] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076550]  PID: 1363 PROCESS: gnome-keyring-d STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076551] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076551] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076551] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076552] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076552]  PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076552] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076552] PARENT PID: 1109 PROCESS: lightdm STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076553] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076554] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076554]  PID: 1456 PROCESS: dbus-daemon STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076554] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076554] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076554] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076555] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076555]  PID: 1468 PROCESS: window-stack-br STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076556] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076556] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076556] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076557] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076557]  PID: 1471 PROCESS: upstart-udev-br STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076557] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076557] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076558] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076558] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076558]  PID: 1494 PROCESS: upstart-dbus-br STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076559] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076559] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076559] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076560] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076560]  PID: 1496 PROCESS: upstart-dbus-br STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076561] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076561] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076561] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076562] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076562]  PID: 1499 PROCESS: upstart-file-br STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076562] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076562] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076563] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076563] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076563]  PID: 1510 PROCESS: ibus-daemon STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076564] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076564] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076564] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076565] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076565]  PID: 1522 PROCESS: gvfsd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076565] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076565] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076566] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076566] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076566]  PID: 1527 PROCESS: gvfsd-fuse STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076567] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076567] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076567] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076568] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076568]  PID: 1535 PROCESS: ibus-dconf STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076569] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076569] PARENT PID: 1510 PROCESS: ibus-daemon STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076569] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076570] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076570]  PID: 1539 PROCESS: ibus-ui-gtk3 STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076570] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076570] PARENT PID: 1510 PROCESS: ibus-daemon STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076571] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076571] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076571]  PID: 1543 PROCESS: ibus-x11 STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076572] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076572] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076572] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076573] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076573]  PID: 1552 PROCESS: at-spi-bus-laun STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076573] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076573] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076574] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076574] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076574]  PID: 1559 PROCESS: dbus-daemon STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076575] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076575] PARENT PID: 1552 PROCESS: at-spi-bus-laun STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076575] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076576] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076576]  PID: 1562 PROCESS: at-spi2-registr STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076577] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076577] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076577] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076578] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076578]  PID: 1571 PROCESS: bamfdaemon STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076579] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076579] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076579] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076580] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076580]  PID: 1572 PROCESS: ibus-engine-sim STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076580] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076580] PARENT PID: 1510 PROCESS: ibus-daemon STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076581] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076581] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076581]  PID: 1575 PROCESS: gpg-agent STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076582] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076582] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076582] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076583] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076583]  PID: 1589 PROCESS: hud-service STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076583] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076583] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076584] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076585] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076585]  PID: 1591 PROCESS: unity-settings- STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076585] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076585] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076585] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076586] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076586]  PID: 1605 PROCESS: gnome-session-b STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076587] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076587] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076587] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076588] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076588]  PID: 1612 PROCESS: unity-panel-ser STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076588] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076588] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076589] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076589] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076589]  PID: 1634 PROCESS: indicator-messa STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076590] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076590] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076590] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076591] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076591]  PID: 1637 PROCESS: indicator-bluet STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076592] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076592] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076592] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076593] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076593]  PID: 1643 PROCESS: indicator-power STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076593] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076593] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076593] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076594] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076594]  PID: 1646 PROCESS: indicator-datet STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076595] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076595] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076595] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076596] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076596]  PID: 1647 PROCESS: indicator-keybo STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076596] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076596] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076597] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076597] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076597]  PID: 1648 PROCESS: indicator-sound STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076598] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076598] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076598] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076599] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076599]  PID: 1651 PROCESS: indicator-print STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076599] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076599] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076600] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076600] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076600]  PID: 1655 PROCESS: indicator-sessi STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076601] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076601] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076601] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076602] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076602]  PID: 1688 PROCESS: pulseaudio STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076603] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076603] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076603] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076604] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076604]  PID: 1693 PROCESS: evolution-sourc STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076604] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076604] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076605] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076605] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076605]  PID: 1703 PROCESS: dconf-service STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076606] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076606] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076606] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076607] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076607]  PID: 1708 PROCESS: indicator-appli STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076607] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076607] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076608] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076608] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076608]  PID: 1750 PROCESS: compiz STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076609] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076609] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076609] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076610] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076610]  PID: 1760 PROCESS: evolution-calen STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076611] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076611] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076611] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076612] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076612]  PID: 1777 PROCESS: gnome-software STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076612] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076612] PARENT PID: 1605 PROCESS: gnome-session-b STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076613] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076613] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076613]  PID: 1778 PROCESS: nautilus STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076614] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076614] PARENT PID: 1605 PROCESS: gnome-session-b STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076614] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076615] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076615]  PID: 1783 PROCESS: unity-fallback- STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076615] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076615] PARENT PID: 1605 PROCESS: gnome-session-b STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076616] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076616] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076616]  PID: 1792 PROCESS: polkit-gnome-au STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076617] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076617] PARENT PID: 1605 PROCESS: gnome-session-b STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076617] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076618] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076618]  PID: 1798 PROCESS: nm-applet STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076619] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076619] PARENT PID: 1605 PROCESS: gnome-session-b STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076619] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076620] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076620]  PID: 1835 PROCESS: gvfs-udisks2-vo STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076620] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076620] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076621] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076622] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076622]  PID: 1836 PROCESS: fwupd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076622] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076622] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076622] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076623] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076623]  PID: 1840 PROCESS: udisksd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076624] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076624] PARENT PID: 1 PROCESS: systemd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076624] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076625] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076625]  PID: 1849 PROCESS: gvfs-mtp-volume STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076626] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076626] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076626] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076627] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076627]  PID: 1854 PROCESS: gvfs-afc-volume STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076627] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076627] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076628] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076629] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076629]  PID: 1860 PROCESS: gvfs-gphoto2-vo STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076629] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076629] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076629] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076630] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076630]  PID: 1865 PROCESS: gvfs-goa-volume STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076631] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076631] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076631] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076632] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076632]  PID: 1879 PROCESS: kworker/0:3 STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076632] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076632] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076633] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076633] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076633]  PID: 1886 PROCESS: evolution-calen STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076634] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076634] PARENT PID: 1760 PROCESS: evolution-calen STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076634] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076635] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076635]  PID: 1890 PROCESS: gvfsd-trash STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076636] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076636] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076636] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076637] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076637]  PID: 1901 PROCESS: evolution-calen STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076637] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076637] PARENT PID: 1760 PROCESS: evolution-calen STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076638] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076638] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076638]  PID: 1912 PROCESS: evolution-addre STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076639] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076639] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076639] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076640] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076640]  PID: 1944 PROCESS: evolution-addre STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076640] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076640] PARENT PID: 1912 PROCESS: evolution-addre STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076641] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076641] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076641]  PID: 1946 PROCESS: gvfsd-metadata STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076642] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076642] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076642] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076671] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076671]  PID: 1982 PROCESS: zeitgeist-datah STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076672] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076672] PARENT PID: 1605 PROCESS: gnome-session-b STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076672] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076673] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076673]  PID: 1989 PROCESS: sh STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076674] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076674] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076674] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076675] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076675]  PID: 1993 PROCESS: zeitgeist-daemo STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076675] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076675] PARENT PID: 1989 PROCESS: sh STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076676] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076676] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076676]  PID: 2001 PROCESS: zeitgeist-fts STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076677] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076677] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076677] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076678] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076678]  PID: 2042 PROCESS: update-notifier STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076679] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076679] PARENT PID: 1605 PROCESS: gnome-session-b STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076679] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076680] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076680]  PID: 2067 PROCESS: deja-dup-monito STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076681] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076681] PARENT PID: 1605 PROCESS: gnome-session-b STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076681] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076682] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076682]  PID: 2107 PROCESS: kworker/0:1 STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076683] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076683] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076683] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076684] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076684]  PID: 2138 PROCESS: gvfsd-network STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076684] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076684] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076685] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076685] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076685]  PID: 2154 PROCESS: gnome-terminal- STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076686] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076686] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076686] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076687] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076687]  PID: 2161 PROCESS: bash STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076688] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076688] PARENT PID: 2154 PROCESS: gnome-terminal- STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076688] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076689] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076689]  PID: 2168 PROCESS: gvfsd-dnssd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076690] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076690] PARENT PID: 1371 PROCESS: upstart STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076690] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076691] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076691]  PID: 2601 PROCESS: bash STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076691] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076691] PARENT PID: 2154 PROCESS: gnome-terminal- STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076692] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076703] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076703]  PID: 2614 PROCESS: kworker/0:0 STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076704] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076704] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076704] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076705] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076705]  PID: 2623 PROCESS: tail STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076706] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076706] PARENT PID: 2601 PROCESS: bash STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076706] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076707] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076707]  PID: 2644 PROCESS: kworker/u2:2 STATE: 1026
+Jun 26 20:25:34 mohssen kernel: [ 1912.076707] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076707] PARENT PID: 2 PROCESS: kthreadd STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076708] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076709] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076709]  PID: 2746 PROCESS: sudo STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076709] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076709] PARENT PID: 2161 PROCESS: bash STATE: 1
+Jun 26 20:25:34 mohssen kernel: [ 1912.076710] -----------------------------------------------------
+Jun 26 20:25:34 mohssen kernel: [ 1912.076710] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076710]  PID: 2747 PROCESS: insmod STATE: 0
+Jun 26 20:25:34 mohssen kernel: [ 1912.076711] 
+Jun 26 20:25:34 mohssen kernel: [ 1912.076711] PARENT PID: 2746 PROCESS: sudo STATE: 1
+
+

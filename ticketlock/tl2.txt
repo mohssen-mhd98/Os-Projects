@@ -1,0 +1,98 @@
+// Mutual exclusion spin locks.
+
+#include "types.h"
+#include "defs.h"
+#include "param.h"
+#include "x86.h"
+#include "memlayout.h"
+#include "mmu.h"
+#include "proc.h"
+#include "spinlock.h"
+#include "ticketlock.h"
+
+int holding_ticketLock(struct ticketlock *lock);
+
+void
+ini_ticketLock(struct ticketlock *lk, char *name)
+{
+  lk->name = name;
+  lk->ticketlock = 0;
+  lk->ticket = 0;
+  lk->proc = 0;
+}
+
+// Acquire the lock.
+// Loops (spins) until the lock is acquired.
+// Holding a lock for a long time may cause
+// other CPUs to waste time spinning to acquire it.
+void
+acquire_ticketLock(struct ticketlock *lk)
+{
+    acquire(&lk->lk);
+       if (lk->ticketlock) {
+            lk->waitedPid[lk->QTail] = myproc()->pid;
+            fetch_and_add(&lk->QTail, 1);
+        }
+        fetch_and_add(&lk->ticket, 1);
+        if (lk->QTail == 100){
+            lk->QTail  =0;//if tail reaches the end of the array, reset it to 0(like a circular queue)
+        }
+        while (lk->ticketlock)
+        lk->ticketlock = 1;//lock acquired
+        lk->pid = myproc()->pid;
+        release(&lk->lk);
+}
+
+// Release the lock.
+void
+release_ticketLock(struct ticketlock *lk)
+{
+    acquire(&lk->lk);
+    lk->ticketlock = 0;//lock released
+    lk->pid = 0;
+    fetch_and_add(&lk->QHead, 1);
+    if(lk->QHead == 100){
+        lk->QHead = 0;//if head reaches the end of the array, reset it to 0(like a circular queue)
+    }
+    if (lk->QHead == lk->QTail){//if head and tail reach each other, reset head and tail
+        lk->QHead = -1;
+        lk->QTail = 0;
+    }
+   //wakeupTicketLock(lk->waitedPid[lk->QHead]);
+   release(&lk->lk);
+}
+
+
+
+// Check whether this cpu is holding the lock.
+int
+holding_ticketLock(struct ticketlock *lock)
+{
+  int r;
+  pushcli();
+  r = (lock->ticketlock != lock->ticket) && (lock->proc == myproc());
+  popcli();
+  return r;
+}
+*****************************************
+// Mutual exclusion lock.
+struct ticketlock {
+  uint ticketlock;   //ticket    // Is the lock held?
+  uint ticket; //turn
+
+  struct proc *proc;
+  struct spinlock lk;
+  uint total;
+  int waitedPid[100];  // Array Of Waited Process
+  uint QHead;          // Head Of The Queue
+  uint QTail;         // Tail Of The Queue
+  uint pid;          // Process holding lock
+  // For debugging:
+  char *name;        // Name of lock.
+  struct cpu *cpu;   // The cpu holding the lock.
+  uint pcs[10];      // The call stack (an array of program counters)
+                     // that locked the lock.
+};
+
+
+

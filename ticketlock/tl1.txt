@@ -1,0 +1,94 @@
+// Mutual exclusion spin locks.
+
+#include "types.h"
+#include "defs.h"
+#include "param.h"
+#include "x86.h"
+#include "memlayout.h"
+#include "mmu.h"
+#include "proc.h"
+#include "spinlock.h"
+#include "ticketlock.h"
+
+int holding_ticketLock(struct ticketlock *lock);
+uint turn = 0;
+void
+ini_ticketLock(struct ticketlock *tl, char *name)
+{
+  initlock(&tl->lk, "ticket lock");
+  tl->name = name;
+  tl->ticketlock = 0;
+  tl->ticket = 0;
+  tl->proc = 0;
+  tl->total =0;
+}
+
+// Acquire the lock.
+// Loops (spins) until the lock is acquired.
+// Holding a lock for a long time may cause
+// other CPUs to waste time spinning to acquire it.
+void
+acquire_ticketLock(struct ticketlock *tl)
+{
+  pushcli(); // disable interrupts to avoid deadlock.
+
+  if(holding_ticketLock(tl))
+    panic("acquire");
+
+  acquire(&tl->lk);
+  tl->ticket = fetch_and_add(&tl->total, 1);
+  cprintf("***%d***%d---%s---\n", tl->ticket, tl->ticketlock, tl->name);
+  release(&tl->lk);
+  //cprintf("***%d***%s\n",lk->ticket, lk->name );
+  // The xchg is atomic.
+  while(tl->ticket != tl->ticketlock);
+
+  cprintf("+++%d+++%d---%s---\n", tl->ticket, tl->ticketlock, tl->name);
+
+  // Record info about lock acquisition for debugging.
+  tl->proc = myproc();
+  tl->cpu = mycpu();
+  getcallerpcs(&tl, tl->pcs);
+}
+
+// Release the lock.
+void
+release_ticketLock(struct ticketlock *tl)
+{
+  if(!holding_ticketLock(tl))
+    panic("release");
+    
+  acquire(&tl->lk);
+  tl->pcs[0] = 0;
+  tl->cpu = 0;
+  tl->proc = myproc();
+  fetch_and_add(&tl->ticketlock, 1);
+  cprintf("+++%d###%d---%s---\n", tl->ticket, tl->ticketlock, tl->name);
+  release(&tl->lk);
+
+
+  wakeup(tl);
+
+  popcli();
+
+}
+
+
+
+// Check whether this cpu is holding the lock.
+int
+holding_ticketLock(struct ticketlock *lock)
+{
+  int r;
+  pushcli();
+  r = (lock->total != lock->ticketlock) && (lock->proc == myproc());
+  popcli();
+  return r;
+}
+
+// Pushcli/popcli are like cli/sti except that they are matched:
+// it takes two popcli to undo two pushcli.  Also, if interrupts
+// are off, then pushcli, popcli leaves them off.
+
+
+
